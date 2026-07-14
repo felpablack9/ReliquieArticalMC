@@ -1,0 +1,5 @@
+it\reliclore\listeners\LoreListener.class
+it\reliclore\data\ChronicleManager.class
+it\reliclore\RelicLorePlugin.class
+it\reliclore\data\ChronicleManager$ChronicleEntry.class
+it\reliclore\commands\LoreCommand.class

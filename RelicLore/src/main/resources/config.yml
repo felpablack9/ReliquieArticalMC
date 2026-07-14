@@ -1,0 +1,44 @@
+# RelicLore - Configurazione
+
+settings:
+  # Massimo eventi nella cronologia
+  max-chronicle-entries: 1000
+  # Abilita libro della storia (item in-game)
+  enable-lore-book: true
+  # Registra automaticamente eventi
+  auto-record: true
+
+# Tipi di evento da registrare
+tracked-events:
+  relic-found: true
+  relic-stolen: true
+  relic-lost-death: true
+  relic-hidden: true
+  boss-killed: true
+  war-declared: true
+  alliance-formed: true
+  season-ended: true
+  player-achievement: true
+
+# Template messaggi per la cronologia
+templates:
+  relic-found: "&e{player} &7ha trovato &c{relic} &7in &f{location}"
+  relic-stolen: "&e{player} &7ha rubato &c{relic} &7a &e{victim} &7durante un combattimento"
+  relic-lost-death: "&e{player} &7ha perso &c{relic} &7morendo a &f{location}"
+  relic-hidden: "&c{relic} &7è stata nascosta in &f{region}"
+  boss-killed: "&e{player} &7ha sconfitto il boss &c{boss} &7e ottenuto &c{relic}"
+  war-declared: "&4⚔ Guerra! &e{attacker} &7ha attaccato &e{defender}"
+  alliance-formed: "&a✦ &e{nation1} &7e &e{nation2} &7hanno formato un'alleanza"
+  season-ended: "&6✦ Fine della &e{season}&6. Vincitore: &e{winner}"
+  player-achievement: "&a★ &e{player} &7ha raggiunto: &f{achievement}"
+
+messages:
+  prefix: "&6[Lore] &r"
+  chronicle-header: "&6&l=== ✦ Cronaca del Server ✦ ==="
+  chronicle-entry: "&7[{date}] {event}"
+  relic-story-header: "&6=== Storia di {relic} ==="
+  player-story-header: "&6=== Gesta di {player} ==="
+  no-entries: "&7Nessun evento registrato."
+  book-title: "&0Cronaca del Mondo"
+  book-author: "&8Il Cronista"
+  event-recorded: "&7Evento registrato nella cronaca."

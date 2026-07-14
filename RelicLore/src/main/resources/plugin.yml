@@ -1,0 +1,18 @@
+name: RelicLore
+version: ${project.version}
+main: it.reliclore.RelicLorePlugin
+api-version: '1.20'
+description: Genera la storia del server automaticamente
+author: FelpaBlack
+depend: [CoreRelics]
+commands:
+  lore:
+    description: Consulta la storia del server
+    usage: /lore <subcommand>
+permissions:
+  reliclore.read:
+    description: Permesso per leggere la storia
+    default: true
+  reliclore.admin:
+    description: Permesso admin
+    default: op
