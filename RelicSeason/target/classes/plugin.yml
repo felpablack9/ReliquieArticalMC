@@ -1,0 +1,18 @@
+name: RelicSeason
+version: 1.0.0
+main: it.relicseason.RelicSeasonPlugin
+api-version: '1.20'
+description: Gestione stagioni e classifiche finali
+author: FelpaBlack
+depend: [CoreRelics]
+commands:
+  season:
+    description: Informazioni sulla stagione
+    usage: /season <subcommand>
+permissions:
+  relicseason.info:
+    description: Permesso per vedere info stagione
+    default: true
+  relicseason.admin:
+    description: Permesso admin stagione
+    default: op

@@ -1,0 +1,54 @@
+# RelicSeason - Configurazione
+
+settings:
+  # Durata stagione in giorni
+  season-duration-days: 90
+  # Nome stagione corrente
+  current-season-name: "Stagione 1"
+  # Numero stagione
+  current-season-number: 1
+  # Avviso giorni prima della fine
+  warning-days-before-end: [7, 3, 1]
+  # Avviso ore prima della fine
+  warning-hours-before-end: [12, 6, 1]
+
+end-season:
+  # Annuncia vincitore
+  announce-winner: true
+  # Reset mondo alla fine della stagione
+  reset-world: false
+  # Salva statistiche in Hall of Fame
+  save-hall-of-fame: true
+  # Comandi da eseguire alla fine della stagione
+  end-commands:
+    - "say La stagione è terminata!"
+    # - "mv regen world"
+
+scoring:
+  # Punti per possesso reliquia alla fine
+  points-per-relic-owned: 100
+  # Punti per ogni giorno di possesso di una reliquia
+  points-per-day-owned: 5
+  # Punti per uccisione boss
+  points-per-boss-kill: 25
+  # Punti per furto reliquia
+  points-per-relic-steal: 15
+  # Punti bonus per possedere tutte le reliquie contemporaneamente
+  all-relics-bonus: 500
+
+hall-of-fame:
+  # Massimo giocatori nella Hall of Fame
+  max-entries: 10
+
+messages:
+  prefix: "&6[Season] &r"
+  season-info: "&6Stagione: &f{name} &7| Giorno &f{day}/{total} &7| Fine tra &f{remaining} giorni"
+  season-ending-days: "&c⚠ La stagione finisce tra &f{days} &cgiorni!"
+  season-ending-hours: "&c&l⚠ La stagione finisce tra &f{hours} &c&lore!"
+  season-ended: "&6&l✦ FINE STAGIONE! ✦"
+  winner-announce: "&6&l👑 Il vincitore della {season} è: &e&l{winner} &6&lcon &c{points} &6&lpunti!"
+  leaderboard-header: "&6=== Classifica Stagionale ==="
+  leaderboard-entry: "&e{pos}. &f{player} &7- &c{points} punti &7({relics} reliquie)"
+  hall-of-fame-header: "&6&l=== ✦ Hall of Fame ✦ ==="
+  hall-of-fame-entry: "&eStagione {season}: &f{winner} &7- &c{points} punti"
+  points-gained: "&a+{points} punti! &7({reason})"

@@ -1,0 +1,6 @@
+it\relicseason\commands\SeasonCommand.class
+it\relicseason\data\HallOfFame.class
+it\relicseason\RelicSeasonPlugin.class
+it\relicseason\data\HallOfFame$HallEntry.class
+it\relicseason\listeners\SeasonListener.class
+it\relicseason\data\ScoreManager.class
