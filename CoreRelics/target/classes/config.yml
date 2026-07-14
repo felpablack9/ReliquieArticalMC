@@ -1,0 +1,63 @@
+# CoreRelics - Configurazione
+# Plugin per la modalità Cacciatori di Reliquie
+
+# Impostazioni generali
+settings:
+  # Se true, le reliquie vengono droppate alla morte
+  drop-on-death: true
+  # Messaggio broadcast quando qualcuno trova una reliquia
+  broadcast-on-pickup: true
+  # Cooldown abilità in secondi (default)
+  default-ability-cooldown: 30
+
+# Messaggi personalizzabili
+messages:
+  prefix: "&6[CoreRelics] &r"
+  relic-pickup: "&e{player} &6ha ottenuto la reliquia: &c{relic}!"
+  relic-drop: "&e{player} &6ha perso la reliquia: &c{relic}!"
+  relic-ability-cooldown: "&cAbilità in ricarica! Attendi {seconds} secondi."
+  fame-header: "&6=== Classifica Reliquie ==="
+  fame-entry: "&e{position}. &f{player} &7- &c{count} reliquie"
+  no-permission: "&cNon hai il permesso per questo comando."
+
+# Reliquie predefinite
+relics:
+  spada_del_re_perduto:
+    display-name: "&4Spada del Re Perduto"
+    lore:
+      - "&7Una spada leggendaria forgiata"
+      - "&7nelle fiamme dell'antico regno."
+      - ""
+      - "&eAbilità: &cColpo Devastante"
+      - "&7Colpisce tutti i nemici vicini."
+    material: NETHERITE_SWORD
+    ability: SWEEPING_STRIKE
+    ability-cooldown: 20
+    ability-radius: 5.0
+    ability-damage: 8.0
+
+  anello_del_viaggiatore:
+    display-name: "&5Anello del Viaggiatore"
+    lore:
+      - "&7Un anello mistico che piega"
+      - "&7lo spazio e il tempo."
+      - ""
+      - "&eAbilità: &dTeletrasporto"
+      - "&7Ti teletrasporta dove guardi."
+    material: GOLD_NUGGET
+    ability: TELEPORT
+    ability-cooldown: 45
+    ability-range: 50
+
+  martello_del_titano:
+    display-name: "&3Martello del Titano"
+    lore:
+      - "&7Il martello di un antico titano,"
+      - "&7capace di frantumare montagne."
+      - ""
+      - "&eAbilità: &bFrantumazione"
+      - "&7Distrugge un'area di blocchi."
+    material: NETHERITE_AXE
+    ability: AREA_BREAK
+    ability-cooldown: 30
+    ability-radius: 3

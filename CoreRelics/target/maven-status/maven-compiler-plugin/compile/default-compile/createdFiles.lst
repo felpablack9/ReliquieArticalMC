@@ -1,0 +1,11 @@
+it\corerelics\abilities\AbilityManager.class
+it\corerelics\relics\Relic.class
+it\corerelics\abilities\AbilityType.class
+it\corerelics\data\DataManager.class
+it\corerelics\commands\RelicCommand.class
+it\corerelics\commands\RelicTabCompleter.class
+it\corerelics\listeners\RelicListener.class
+it\corerelics\relics\RelicRegistry.class
+it\corerelics\relics\OwnerRecord.class
+it\corerelics\CoreRelicsPlugin.class
+it\corerelics\abilities\AbilityManager$1.class
