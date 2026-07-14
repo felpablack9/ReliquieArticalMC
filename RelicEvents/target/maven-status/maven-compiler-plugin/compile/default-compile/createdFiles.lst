@@ -1,0 +1,12 @@
+it\relicevents\RelicEventsPlugin.class
+it\relicevents\events\types\DungeonEvent.class
+it\relicevents\listeners\EventListener.class
+it\relicevents\events\EventManager.class
+it\relicevents\events\types\MeteorEvent$1.class
+it\relicevents\events\types\BossEvent.class
+it\relicevents\events\EventScheduler.class
+it\relicevents\structures\DungeonBuilder.class
+it\relicevents\events\types\MeteorEvent.class
+it\relicevents\events\RelicEvent.class
+it\relicevents\structures\ShipBuilder.class
+it\relicevents\events\types\GhostShipEvent.class

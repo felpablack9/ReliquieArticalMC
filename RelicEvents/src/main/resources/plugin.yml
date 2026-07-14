@@ -1,0 +1,16 @@
+name: RelicEvents
+version: ${project.version}
+main: it.relicevents.RelicEventsPlugin
+api-version: '1.20'
+description: Genera reliquie nel mondo tramite eventi automatici
+author: FelpaBlack
+depend: [CoreRelics]
+commands:
+  relicevent:
+    description: Comando principale per gli eventi reliquie
+    usage: /relicevent <subcommand>
+    permission: relicevents.admin
+permissions:
+  relicevents.admin:
+    description: Permesso per i comandi admin degli eventi
+    default: op

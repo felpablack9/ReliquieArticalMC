@@ -1,0 +1,64 @@
+# RelicEvents - Configurazione
+# Plugin per la generazione di eventi con reliquie
+
+settings:
+  # Intervallo tra eventi automatici (in minuti)
+  event-interval-minutes: 60
+  # Raggio massimo da spawn per generare eventi (blocchi)
+  max-event-radius: 2000
+  # Raggio minimo da spawn per generare eventi (blocchi)
+  min-event-radius: 200
+  # Durata degli eventi temporanei (in minuti)
+  event-duration-minutes: 30
+  # Mondo in cui generare gli eventi
+  event-world: "world"
+  # Numero minimo di giocatori online per avviare un evento
+  min-players: 1
+
+messages:
+  prefix: "&6[RelicEvents] &r"
+  event-announce: "&e&l⚡ EVENTO! &6{event} &eè apparso nel mondo!"
+  event-location: "&7Coordinate approssimative: &fX:{x} Z:{z}"
+  event-ending: "&c⚠ L'evento &6{event} &csta per terminare!"
+  event-ended: "&7L'evento &6{event} &7è terminato."
+  boss-spawn: "&4&l☠ BOSS! &c{boss} &4è apparso a X:{x} Z:{z}!"
+  boss-killed: "&a{player} &2ha sconfitto &c{boss} &2e ha ottenuto una reliquia!"
+  meteor-incoming: "&c&l☄ METEORA IN ARRIVO! &eImpatto previsto a X:{x} Z:{z}!"
+  meteor-landed: "&6La meteora è atterrata! Corri a cercare la reliquia tra le macerie!"
+  dungeon-spawned: "&5&l🏰 DUNGEON TEMPORANEO &dè apparso nelle vicinanze!"
+  ghost-ship-spawned: "&b&l⛵ NAVE FANTASMA &3avvistata in mare!"
+
+# Configurazione eventi
+events:
+  dungeon:
+    enabled: true
+    weight: 30
+    mob-count: 15
+    boss-at-end: true
+    size-radius: 8
+
+  ghost-ship:
+    enabled: true
+    weight: 25
+    mob-count: 10
+    ship-length: 15
+    ship-width: 5
+
+  meteor:
+    enabled: true
+    weight: 25
+    crater-radius: 5
+    fire-spread: true
+    particle-warning-seconds: 10
+
+  boss:
+    enabled: true
+    weight: 20
+    boss-health-multiplier: 5.0
+    boss-damage-multiplier: 2.0
+    boss-types:
+      - WITHER_SKELETON
+      - VINDICATOR
+      - EVOKER
+      - PIGLIN_BRUTE
+      - WARDEN
