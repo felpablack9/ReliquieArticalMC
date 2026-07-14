@@ -1,0 +1,7 @@
+it\reliccombat\commands\BountyCommand.class
+it\reliccombat\listeners\CombatTagListener.class
+it\reliccombat\commands\CombatCommand.class
+it\reliccombat\bounty\BountyManager$BountyEntry.class
+it\reliccombat\bounty\BountyManager.class
+it\reliccombat\RelicCombatPlugin.class
+it\reliccombat\listeners\CombatListener.class

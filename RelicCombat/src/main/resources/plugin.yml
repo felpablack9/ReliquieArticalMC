@@ -1,0 +1,21 @@
+name: RelicCombat
+version: ${project.version}
+main: it.reliccombat.RelicCombatPlugin
+api-version: '1.20'
+description: Bilanciamento PvP e gestione combattimento
+author: FelpaBlack
+depend: [CoreRelics]
+commands:
+  bounty:
+    description: Gestione taglie
+    usage: /bounty <subcommand>
+  combat:
+    description: Info combattimento
+    usage: /combat
+permissions:
+  reliccombat.bounty:
+    description: Permesso per mettere taglie
+    default: true
+  reliccombat.admin:
+    description: Permesso admin
+    default: op

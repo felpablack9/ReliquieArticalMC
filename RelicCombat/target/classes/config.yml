@@ -1,0 +1,52 @@
+# RelicCombat - Configurazione
+
+settings:
+  # Reliquie droppano alla morte in PvP
+  drop-relics-on-pvp-death: true
+  # Reliquie droppano alla morte per mob
+  drop-relics-on-pve-death: false
+  # Secondi di combat tag dopo essere colpiti
+  combat-tag-seconds: 15
+  # Punizione per combat log (disconnect durante combattimento)
+  combat-log-punishment: KILL
+  # Opzioni: KILL, DROP_INVENTORY, DROP_RELICS, NONE
+  # Tempo di grazia dopo il respawn (secondi, no PvP)
+  respawn-grace-seconds: 10
+
+bounty:
+  # Abilita sistema taglie
+  enabled: true
+  # Minimo diamanti per taglia
+  min-bounty: 1
+  # Massimo diamanti per taglia
+  max-bounty: 64
+  # Taglia automatica per chi possiede 2+ reliquie
+  auto-bounty-threshold: 2
+  # Valore taglia automatica per reliquia
+  auto-bounty-per-relic: 5
+  # Broadcast quando una taglia viene riscossa
+  broadcast-bounty-claim: true
+
+death:
+  # Messaggio speciale per morte con reliquia
+  relic-death-broadcast: true
+  # Effetto particellare alla morte con reliquia
+  death-particles: true
+  # Suono alla morte con reliquia
+  death-sound: true
+  # Tempo in secondi prima che la reliquia droppata possa essere raccolta da altri
+  relic-pickup-delay: 5
+
+messages:
+  prefix: "&6[Combat] &r"
+  combat-tagged: "&c⚔ Sei in combattimento! Non disconnetterti per {seconds}s"
+  combat-tag-expired: "&aSei fuori dal combattimento."
+  combat-log-punished: "&c{player} si è disconnesso durante il combattimento!"
+  relic-dropped: "&e⚔ {player} &6ha perso &c{relic} &6in combattimento!"
+  relic-stolen: "&e⚔ {killer} &6ha rubato &c{relic} &6a &e{victim}!"
+  bounty-placed: "&aTaglia di &f{amount} diamanti &apiazzata su &e{target}!"
+  bounty-claimed: "&6&l💰 {player} &6ha riscosso la taglia su &e{target} &6(&f{amount} diamanti&6)!"
+  bounty-list-header: "&6=== Taglie Attive ==="
+  bounty-list-entry: "&e{pos}. &f{player} &7- &c{amount} diamanti"
+  no-pvp-grace: "&7Sei protetto per ancora {seconds}s dopo il respawn."
+  auto-bounty: "&c⚠ Taglia automatica di &f{amount} &cpiazzata su &e{player} &c(possiede {count} reliquie)!"
