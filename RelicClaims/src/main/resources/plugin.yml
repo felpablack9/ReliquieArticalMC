@@ -1,0 +1,30 @@
+name: RelicClaims
+version: ${project.version}
+main: it.relicclaims.RelicClaimsPlugin
+api-version: '1.20'
+description: Protezione territori, nazioni e gilde
+author: FelpaBlack
+softdepend: [CoreRelics]
+commands:
+  claim:
+    description: Gestione claim territoriali
+    usage: /claim <subcommand>
+  guild:
+    description: Gestione gilde
+    usage: /guild <subcommand>
+  nation:
+    description: Gestione nazioni
+    usage: /nation <subcommand>
+permissions:
+  relicclaims.claim:
+    description: Permesso per claimmare terreni
+    default: true
+  relicclaims.guild:
+    description: Permesso per creare gilde
+    default: true
+  relicclaims.nation:
+    description: Permesso per gestire nazioni
+    default: true
+  relicclaims.admin:
+    description: Permesso admin
+    default: op

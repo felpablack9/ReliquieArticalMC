@@ -1,0 +1,57 @@
+# RelicClaims - Configurazione
+
+settings:
+  # Dimensione chunk per claim (in chunk 16x16)
+  claim-size-chunks: 1
+  # Massimo claim per giocatore
+  max-claims-per-player: 5
+  # Massimo claim per gilda
+  max-claims-per-guild: 20
+  # Costo in diamanti per claim
+  claim-cost: 3
+  # Tassa giornaliera per claim (in diamanti)
+  daily-tax-per-claim: 0
+  # Protezione esplosioni nei claim
+  protect-explosions: true
+  # Protezione PvP nei claim (solo alleati possono combattere)
+  protect-pvp-in-claims: true
+
+guild:
+  # Minimo membri per creare una gilda
+  min-members-to-create: 1
+  # Massimo membri per gilda
+  max-members: 20
+  # Costo creazione gilda (diamanti)
+  creation-cost: 5
+
+nation:
+  # Minimo gilde per creare una nazione
+  min-guilds-to-create: 2
+  # Massimo gilde per nazione
+  max-guilds: 10
+  # Costo creazione nazione (diamanti)
+  creation-cost: 20
+  # Bonus claim per nazione
+  bonus-claims-per-guild: 5
+
+alliance:
+  # Massimo alleanze per nazione
+  max-alliances: 3
+
+messages:
+  prefix: "&6[Claims] &r"
+  claim-success: "&aTerreno claimato con successo!"
+  claim-fail-owned: "&cQuesto terreno è già claimato!"
+  claim-fail-cost: "&cNon hai abbastanza diamanti! Costo: {cost}"
+  claim-fail-max: "&cHai raggiunto il massimo di claim!"
+  claim-removed: "&aClaim rimosso."
+  protected: "&cNon puoi costruire/distruggere qui! Terreno protetto da &e{owner}"
+  guild-created: "&aGilda &e{name} &acreata!"
+  guild-invited: "&eSei stato invitato nella gilda &f{name}&e. Usa /guild accept"
+  guild-joined: "&a{player} è entrato nella gilda!"
+  guild-left: "&c{player} ha lasciato la gilda."
+  nation-created: "&aNazione &e{name} &acreata!"
+  alliance-formed: "&aAlleanza formata con &e{nation}!"
+  alliance-broken: "&cAlleanza con &e{nation} &cterminata."
+  tax-collected: "&eTasse riscosse: &f{amount} diamanti"
+  tax-fail: "&cImpossibile riscuotere le tasse! Claim a rischio."

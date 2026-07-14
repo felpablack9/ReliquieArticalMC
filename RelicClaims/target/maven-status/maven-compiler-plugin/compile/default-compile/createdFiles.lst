@@ -1,0 +1,11 @@
+it\relicclaims\data\NationManager.class
+it\relicclaims\listeners\ProtectionListener.class
+it\relicclaims\data\ClaimManager.class
+it\relicclaims\commands\GuildCommand.class
+it\relicclaims\commands\ClaimCommand.class
+it\relicclaims\data\GuildManager.class
+it\relicclaims\model\Claim.class
+it\relicclaims\RelicClaimsPlugin.class
+it\relicclaims\model\Nation.class
+it\relicclaims\commands\NationCommand.class
+it\relicclaims\model\Guild.class
