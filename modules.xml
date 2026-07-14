@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoreRelics/CoreRelics.iml" filepath="$PROJECT_DIR$/CoreRelics/CoreRelics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelicClaims/RelicClaims.iml" filepath="$PROJECT_DIR$/RelicClaims/RelicClaims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelicCombat/RelicCombat.iml" filepath="$PROJECT_DIR$/RelicCombat/RelicCombat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelicEvents/RelicEvents.iml" filepath="$PROJECT_DIR$/RelicEvents/RelicEvents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelicLore/RelicLore.iml" filepath="$PROJECT_DIR$/RelicLore/RelicLore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelicMap/RelicMap.iml" filepath="$PROJECT_DIR$/RelicMap/RelicMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelicSeason/RelicSeason.iml" filepath="$PROJECT_DIR$/RelicSeason/RelicSeason.iml" />
+    </modules>
+  </component>
+</project>

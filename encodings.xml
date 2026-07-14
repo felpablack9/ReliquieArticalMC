@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CoreRelics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreRelics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicClaims/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicClaims/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicCombat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicCombat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicEvents/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicEvents/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicLore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicLore/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicMap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicMap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicSeason/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RelicSeason/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
