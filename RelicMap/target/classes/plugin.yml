@@ -1,0 +1,19 @@
+name: RelicMap
+version: 1.0.0
+main: it.relicmap.RelicMapPlugin
+api-version: '1.20'
+description: Sistema di informazioni pubbliche sulle reliquie
+author: FelpaBlack
+depend: [CoreRelics]
+commands:
+  relicmap:
+    description: Bacheca delle reliquie
+    usage: /relicmap <subcommand>
+    permission: relicmap.use
+permissions:
+  relicmap.use:
+    description: Permesso per vedere la bacheca
+    default: true
+  relicmap.admin:
+    description: Permesso per gestire i tag
+    default: op

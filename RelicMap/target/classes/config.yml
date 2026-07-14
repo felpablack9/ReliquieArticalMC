@@ -1,0 +1,31 @@
+# RelicMap - Configurazione
+
+settings:
+  # Aggiorna la posizione ogni X secondi
+  tracking-interval-seconds: 60
+  # Mostra coordinate esatte o regione
+  show-exact-coords: false
+  # Raggio regione per approssimazione
+  region-radius: 100
+
+messages:
+  prefix: "&6[RelicMap] &r"
+  board-header: "&6&l=== ✦ Bacheca Reliquie ✦ ==="
+  board-entry: "&e{relic} &7→ Possessore: &f{owner} &7| Regione: &f{region}"
+  board-no-owner: "&e{relic} &7→ &cDispersa nel mondo..."
+  ranking-header: "&6&l=== Classifica Possessori ==="
+  ranking-entry: "&e{pos}. &f{player} &7- &c{count} reliquie"
+  sighting-format: "&7Ultimo avvistamento: &f{region} &7({time} fa)"
+  tag-set: "&aTag personalizzato impostato: &f{tag}"
+  tag-removed: "&cTag rimosso."
+
+# Nomi regioni personalizzabili per coordinate
+regions:
+  default-name: "Terre Sconosciute"
+  # Formato: "nome: x1,z1,x2,z2"
+  custom:
+    - "Deserto Occidentale:-500,-500,0,0"
+    - "Foresta del Nord:0,0,500,500"
+    - "Montagne dell'Est:500,-500,1000,0"
+    - "Pianure del Sud:-500,500,0,1000"
+    - "Valle Centrale:-250,-250,250,250"

@@ -1,0 +1,7 @@
+it\relicmap\data\SightingTracker$SightingRecord.class
+it\relicmap\data\RegionManager.class
+it\relicmap\data\SightingTracker.class
+it\relicmap\listeners\TrackingListener.class
+it\relicmap\RelicMapPlugin.class
+it\relicmap\data\RegionManager$Region.class
+it\relicmap\commands\RelicMapCommand.class
